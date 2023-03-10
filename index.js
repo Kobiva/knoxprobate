@@ -9,6 +9,7 @@ const month = date.getMonth() + 1;
 const year = date.getFullYear();
 const currentDate = `${month}/${day}/${year}`;
 
+
 // calculate last week's date
 let lastWeeksDate;
   if (lastWeek < 1) {
